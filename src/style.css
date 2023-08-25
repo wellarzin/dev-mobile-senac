@@ -161,3 +161,266 @@ header .login #cadastro a{
     font-weight: 400;
     line-height: 2.4rem;
 }
+
+/* Section vagas  */
+.vagas .intro{
+    display: flex;
+    padding: 9.6rem 0rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 6.4rem;
+    align-self: stretch;
+}
+
+.vagas .intro span{
+    color: #8E2424;
+    text-align: center;
+
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.vagas .intro h2{
+    color: var(--gray-900, #101828);
+    text-align: center;
+
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4.4rem;
+
+    align-self: stretch;
+}
+
+.vagas .intro p{
+    color: var(--gray-500, #667085);
+    text-align: center;
+
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+
+    align-self: stretch;
+}
+
+.vagas .intro img{
+    width: 121.6rem;
+    height: 40rem;
+    flex-shrink: 0;
+}
+
+.vagas .vagas--specification{
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 3.2rem;
+    align-items: center;
+    gap: 6.4rem;
+}
+
+.vagas .vagas--specification .design--container, .dev--container{
+    display: flex;
+    width: 76.8rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.2rem;
+}
+
+.vagas .vagas--specification .design--container h3, .dev--container h3{
+    color: var(--gray-900, #101828);
+
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3rem;
+
+    padding-bottom: 3.2rem;
+}
+
+.job-poster{
+    display: flex;
+    padding: 2.4rem 2.4rem 2.8rem 2.4rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+    align-items: stretch;
+    width: 80rem;
+
+    /* borda */
+    border-radius: 1.6rem;
+    border: 1px solid var(--gray-200, #EAECF0);
+}
+
+.job-poster h3{
+    color: var(--gray-900, #101828);
+
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.8rem;
+}
+
+ .job-poster .design--content{
+    display: flex;
+    align-items: center;
+    gap: 2.4rem ;
+    align-self: stretch;
+}
+
+.job-poster .design--content p, .job-poster .dev--content p{
+    color: var(--gray-500, #667085);
+
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.4rem;
+}
+
+/* Section de depoimentos */
+
+.depoimentos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+.depoimentos .dep--container{
+    display: flex;
+    width: 1280px;
+    padding: 9.6rem 3.2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.2rem ;
+}
+
+.depoimentos .dep--container .dep--content{
+    display: flex;
+    padding: 6.4rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.2rem ;
+    align-self: stretch;
+
+
+    border-radius: 1.6rem;
+   
+    /* cor */
+    background-color: rgba(195, 25, 25, 0.03);   
+}
+
+.dep--content span{
+    color: #8E2424;
+    text-align: center;
+
+    /* font  */
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.dep--content h2{
+    color: #101828;
+    text-align: center;
+
+    /* font */
+    font-size: 3.6rem;
+    font-weight: 500;
+    line-height: 4.4rem;
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    height: 43rem;
+    padding: 9.6rem 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.2rem;
+
+}
+
+.footer--container{
+    display: flex;
+    height: 18.2rem;
+    padding: 0px 3.2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.2rem;
+}
+
+.footer--container h2{
+    color: var(--gray-900, #101828);
+    text-align: center;
+
+    /* font  */
+    font-size: 3.6rem;
+    font-weight: 600;
+    line-height: 4.4rem;
+}
+
+.footer--container .footer--content p{
+    color: var(--gray-500,#667085);
+    text-align: center; 
+
+    /* font  */
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+.footer--container .footer--content form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    gap: 3.2rem ;
+}
+
+.footer--container .footer--content form #form--email{
+    display: flex;
+    padding: 1.2rem 1.4rem 1.2rem 1.6rem;
+    align-items: center;
+    gap: 0.8rem;
+    width: 30rem;
+
+    /* border */
+
+    border-radius: 0.8rem;
+    border: 1px solid #D0D5DD;
+    background-color: var(--base-white, #FFF);
+
+    /* sombra */
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.footer--container .footer--content form #form--submit{
+    display: flex;
+    padding: 1.2rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+    color: var(--base-white, #FFF);
+
+    /* border */
+    border-radius: .8rem;
+    border: 1px solid #8E2424;
+    background-color: #8E2424;
+
+    /* sombra */
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+footer p{
+    color: var(--gray-400, #98A2B3);
+
+    /* font */
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+}
